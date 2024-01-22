@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+.header-wrap{
+    margin: 10px;
+}
+.text-hdr{
+    gap: 40px;
+    margin: 0 23%;
+    position: relative;
+    top: 18px;
+}
+.btn-hdr{
+    width: 180px;
+    height: 70px;
+    background-color: #69724F;
+    text-align: center;
+    margin-top: 12px;
+}
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+    
+}
+.btn-hdr a{
+    position: relative;
+    top: 23px;
+    font: 700 20px/24px "Inter", sans-serif ;
+}
+.phed{
+    font: 16px/19px "Inter", sans-serif ;
+    color: #666363;
+}
+.logo{
+    margin: 0 10px;
+}
+
+/* --- */
+
+.container{
+    width: 100%;
+    margin: 20px 0;
+}
+.section1{
+    width: 100%;
+    height: 900px;
+    background: url(img/Rectangle8.png);
+}
+h1{
+    font: bold 54px/81px "Lora", serif;
+    color: #666363;
+}
+h2{
+    font: bold 32px/48px "Lora", serif;
+    color: #121212;
+}
+h3{
+    font: bold 32px/39px "Inter", sans-serif;
+    color: #F5F5F5;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+h4{
+    font: bold 24px/36px "Lora", serif;
+}
+h5{
+    font: bold 24px "Lora", serif;
+    margin: 20px 0;
+}
+h6{
+    font: 400 16px/19px "Inter", sans-serif;
+    color: #F5F5F5;
+}
+p{
+    font: 400 16px/24px "Lora", serif;
+    text-align: left;
+}
+.infop{
+    line-height: 21px;
+}
+.infoh2{
+    color: #666363;
+}
+.info1{
+    text-align: center;
+    margin: 40px 90px;
+}
+.info2{
+    margin: 40px;
+}
+.info2_1{
+    background-color: #69724F;
+    height: 90px;
+    
+}
+.infoimg{
+    margin-left: 40%;
+}
+
+/* --- */
+
+.section2{
+    width: 1362px;
+    text-align: center;
+    margin: 0 auto;
+}
+.card{
+    width: 300px;
+}
+.card-wrap{
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.cardhdr{
+    margin: 30px;
+}
+
+/* --- */
+
+.section3{
+    height: 408px;
+    background: url(img/Rectangle\ 13.png);
+}
+form{
+    text-align: center;
+    margin: 20px 0;
+    padding: 5px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin: 15px;
+    font: 400 16px/24px "Lora", serif;
+    padding-left: 20px;
+}
+button{
+    width: 150;
+    height: 40px;
+    font: bold 16px/24px "Lora", serif;
+    margin-top: 34px;
+    padding: 0 20px;
+}
+
+/* --- */
+
+.section4{
+    text-align: center;
+    margin-top: 90px;
+}
+
+/* --- */
+
+.textcard2{
+    background-color: #69724F;
+    height: 90px;
+    text-align: center;
+    margin: 30px;
+}
+
+.card2{
+    margin-bottom: 30px;
+    gap: 70px;
+}
+.card2-wrap{
+    margin: 0 90px;
+}
+.cardtext{
+    border: 2px solid black;
+    height: 360px;
+    width: 700px;
+    padding: 0 15px;
+    
+}
+.cardp{
+    margin: 0;
+    padding: 0;
+}
+
+/* -- */
+
+.footer{
+    margin: 0;
+}
+.imgfooter{
+    justify-content: right;
+
+}
+.soc{
+    width: 219px;
+    height: 62px;
+    border: 1px solid black;
+    justify-content: center;
+    gap: 10px;
+}
+.soc img{
+    margin-top: 17px;
+    
+}
+.soc p{
+    line-height: 30px;
+}
+.soc-wrap{
+    gap: 25px;
+    margin-top: 25px;
+    margin-right: 15%;
+}
+.footermid{
+    justify-content: right;
+    margin: 20px 0;
+}
+.botfooter{
+    text-align: center;
+    background-color: #69724F;
+    height: 50px;
+}
+.botfooter h6{
+    top: 20px;
+    position: relative;
+}
